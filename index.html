@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Tutorial</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
+      <div class="choices">
+        <button class="choice" id="rock">Rock</button>
+        <button class="choice" id="paper">Paper</button>
+        <button class="choice" id="scissors">Scissors</button>
+      </div>
+      <div>
+        <h2>You chose <span id="user-choice"></span></h2>
+        <h2>The computer chose <span id="computer-choice"></span></h2>
+        <h2 id="result"></h2>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+<!-- LOGIC WE WANT TO FOLLOW
+
+- 1. PRESS ONE BUTTON AND SHOW THE RESULT
+- 2. ONCE PRESSED, COMPUTER CHOICE SHOWS ANOTHER OPTION
+- 3. CHECK BOTH ANSWERS AND DETERMINE WHO WON
+-->
